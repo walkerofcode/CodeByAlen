@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75CE1E71D150B83005C59D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CE1E61D150B83005C59D4 /* main.m */; };
+		F75CE1EA1D150B83005C59D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CE1E91D150B83005C59D4 /* AppDelegate.m */; };
+		F75CE1ED1D150B83005C59D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CE1EC1D150B83005C59D4 /* ViewController.m */; };
+		F75CE1F01D150B83005C59D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75CE1EE1D150B83005C59D4 /* Main.storyboard */; };
+		F75CE1F21D150B83005C59D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75CE1F11D150B83005C59D4 /* Assets.xcassets */; };
+		F75CE1F51D150B83005C59D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75CE1F31D150B83005C59D4 /* LaunchScreen.storyboard */; };
+		F75CE2001D150B83005C59D4 /* _7_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CE1FF1D150B83005C59D4 /* _7_____Tests.m */; };
+		F75CE20B1D150B83005C59D4 /* _7_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CE20A1D150B83005C59D4 /* _7_____UITests.m */; };
+		F75CE21D1D151973005C59D4 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = F75CE21C1D151973005C59D4 /* questions.plist */; };
+		F75CE2201D151FCB005C59D4 /* YJQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CE21F1D151FCB005C59D4 /* YJQuestions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75CE1FC1D150B83005C59D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75CE1DA1D150B83005C59D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75CE1E11D150B83005C59D4;
+			remoteInfo = "07_猜图游戏";
+		};
+		F75CE2071D150B83005C59D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75CE1DA1D150B83005C59D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75CE1E11D150B83005C59D4;
+			remoteInfo = "07_猜图游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75CE1E21D150B83005C59D4 /* 07_猜图游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07_猜图游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CE1E61D150B83005C59D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F75CE1E81D150B83005C59D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F75CE1E91D150B83005C59D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F75CE1EB1D150B83005C59D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F75CE1EC1D150B83005C59D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F75CE1EF1D150B83005C59D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F75CE1F11D150B83005C59D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F75CE1F41D150B83005C59D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F75CE1F61D150B83005C59D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75CE1FB1D150B83005C59D4 /* 07_猜图游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "07_猜图游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CE1FF1D150B83005C59D4 /* _7_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_____Tests.m"; sourceTree = "<group>"; };
+		F75CE2011D150B83005C59D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75CE2061D150B83005C59D4 /* 07_猜图游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "07_猜图游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CE20A1D150B83005C59D4 /* _7_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_____UITests.m"; sourceTree = "<group>"; };
+		F75CE20C1D150B83005C59D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75CE21C1D151973005C59D4 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		F75CE21E1D151FCB005C59D4 /* YJQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJQuestions.h; sourceTree = "<group>"; };
+		F75CE21F1D151FCB005C59D4 /* YJQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJQuestions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75CE1DF1D150B83005C59D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CE1F81D150B83005C59D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CE2031D150B83005C59D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75CE1D91D150B83005C59D4 = {
+			isa = PBXGroup;
+			children = (
+				F75CE1E41D150B83005C59D4 /* 07_猜图游戏 */,
+				F75CE1FE1D150B83005C59D4 /* 07_猜图游戏Tests */,
+				F75CE2091D150B83005C59D4 /* 07_猜图游戏UITests */,
+				F75CE1E31D150B83005C59D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75CE1E31D150B83005C59D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE1E21D150B83005C59D4 /* 07_猜图游戏.app */,
+				F75CE1FB1D150B83005C59D4 /* 07_猜图游戏Tests.xctest */,
+				F75CE2061D150B83005C59D4 /* 07_猜图游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75CE1E41D150B83005C59D4 /* 07_猜图游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE21B1D150BCC005C59D4 /* Others */,
+				F75CE21A1D150BBB005C59D4 /* Models */,
+				F75CE2191D150B9F005C59D4 /* Controllers */,
+				F75CE2181D150B8E005C59D4 /* Views */,
+				F75CE1E51D150B83005C59D4 /* Supporting Files */,
+			);
+			path = "07_猜图游戏";
+			sourceTree = "<group>";
+		};
+		F75CE1E51D150B83005C59D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE1F11D150B83005C59D4 /* Assets.xcassets */,
+				F75CE1F61D150B83005C59D4 /* Info.plist */,
+				F75CE1E61D150B83005C59D4 /* main.m */,
+				F75CE21C1D151973005C59D4 /* questions.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F75CE1FE1D150B83005C59D4 /* 07_猜图游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE1FF1D150B83005C59D4 /* _7_____Tests.m */,
+				F75CE2011D150B83005C59D4 /* Info.plist */,
+			);
+			path = "07_猜图游戏Tests";
+			sourceTree = "<group>";
+		};
+		F75CE2091D150B83005C59D4 /* 07_猜图游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE20A1D150B83005C59D4 /* _7_____UITests.m */,
+				F75CE20C1D150B83005C59D4 /* Info.plist */,
+			);
+			path = "07_猜图游戏UITests";
+			sourceTree = "<group>";
+		};
+		F75CE2181D150B8E005C59D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE1EE1D150B83005C59D4 /* Main.storyboard */,
+				F75CE1F31D150B83005C59D4 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F75CE2191D150B9F005C59D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE1EB1D150B83005C59D4 /* ViewController.h */,
+				F75CE1EC1D150B83005C59D4 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F75CE21A1D150BBB005C59D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE21E1D151FCB005C59D4 /* YJQuestions.h */,
+				F75CE21F1D151FCB005C59D4 /* YJQuestions.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F75CE21B1D150BCC005C59D4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F75CE1E81D150B83005C59D4 /* AppDelegate.h */,
+				F75CE1E91D150B83005C59D4 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75CE1E11D150B83005C59D4 /* 07_猜图游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75CE20F1D150B83005C59D4 /* Build configuration list for PBXNativeTarget "07_猜图游戏" */;
+			buildPhases = (
+				F75CE1DE1D150B83005C59D4 /* Sources */,
+				F75CE1DF1D150B83005C59D4 /* Frameworks */,
+				F75CE1E01D150B83005C59D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_猜图游戏";
+			productName = "07_猜图游戏";
+			productReference = F75CE1E21D150B83005C59D4 /* 07_猜图游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75CE1FA1D150B83005C59D4 /* 07_猜图游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75CE2121D150B83005C59D4 /* Build configuration list for PBXNativeTarget "07_猜图游戏Tests" */;
+			buildPhases = (
+				F75CE1F71D150B83005C59D4 /* Sources */,
+				F75CE1F81D150B83005C59D4 /* Frameworks */,
+				F75CE1F91D150B83005C59D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75CE1FD1D150B83005C59D4 /* PBXTargetDependency */,
+			);
+			name = "07_猜图游戏Tests";
+			productName = "07_猜图游戏Tests";
+			productReference = F75CE1FB1D150B83005C59D4 /* 07_猜图游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75CE2051D150B83005C59D4 /* 07_猜图游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75CE2151D150B83005C59D4 /* Build configuration list for PBXNativeTarget "07_猜图游戏UITests" */;
+			buildPhases = (
+				F75CE2021D150B83005C59D4 /* Sources */,
+				F75CE2031D150B83005C59D4 /* Frameworks */,
+				F75CE2041D150B83005C59D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75CE2081D150B83005C59D4 /* PBXTargetDependency */,
+			);
+			name = "07_猜图游戏UITests";
+			productName = "07_猜图游戏UITests";
+			productReference = F75CE2061D150B83005C59D4 /* 07_猜图游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75CE1DA1D150B83005C59D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YJ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alen;
+				TargetAttributes = {
+					F75CE1E11D150B83005C59D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HK7UA3J2FH;
+					};
+					F75CE1FA1D150B83005C59D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HK7UA3J2FH;
+						TestTargetID = F75CE1E11D150B83005C59D4;
+					};
+					F75CE2051D150B83005C59D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HK7UA3J2FH;
+						TestTargetID = F75CE1E11D150B83005C59D4;
+					};
+				};
+			};
+			buildConfigurationList = F75CE1DD1D150B83005C59D4 /* Build configuration list for PBXProject "07_猜图游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75CE1D91D150B83005C59D4;
+			productRefGroup = F75CE1E31D150B83005C59D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75CE1E11D150B83005C59D4 /* 07_猜图游戏 */,
+				F75CE1FA1D150B83005C59D4 /* 07_猜图游戏Tests */,
+				F75CE2051D150B83005C59D4 /* 07_猜图游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75CE1E01D150B83005C59D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CE1F51D150B83005C59D4 /* LaunchScreen.storyboard in Resources */,
+				F75CE1F21D150B83005C59D4 /* Assets.xcassets in Resources */,
+				F75CE1F01D150B83005C59D4 /* Main.storyboard in Resources */,
+				F75CE21D1D151973005C59D4 /* questions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CE1F91D150B83005C59D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CE2041D150B83005C59D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75CE1DE1D150B83005C59D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CE1ED1D150B83005C59D4 /* ViewController.m in Sources */,
+				F75CE1EA1D150B83005C59D4 /* AppDelegate.m in Sources */,
+				F75CE2201D151FCB005C59D4 /* YJQuestions.m in Sources */,
+				F75CE1E71D150B83005C59D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CE1F71D150B83005C59D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CE2001D150B83005C59D4 /* _7_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75CE2021D150B83005C59D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CE20B1D150B83005C59D4 /* _7_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75CE1FD1D150B83005C59D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75CE1E11D150B83005C59D4 /* 07_猜图游戏 */;
+			targetProxy = F75CE1FC1D150B83005C59D4 /* PBXContainerItemProxy */;
+		};
+		F75CE2081D150B83005C59D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75CE1E11D150B83005C59D4 /* 07_猜图游戏 */;
+			targetProxy = F75CE2071D150B83005C59D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75CE1EE1D150B83005C59D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75CE1EF1D150B83005C59D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F75CE1F31D150B83005C59D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75CE1F41D150B83005C59D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75CE20D1D150B83005C59D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F75CE20E1D150B83005C59D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75CE2101D150B83005C59D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07_猜图游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F75CE2111D150B83005C59D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07_猜图游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F75CE2131D150B83005C59D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "07_猜图游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-7-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/07_猜图游戏.app/07_猜图游戏";
+			};
+			name = Debug;
+		};
+		F75CE2141D150B83005C59D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "07_猜图游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-7-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/07_猜图游戏.app/07_猜图游戏";
+			};
+			name = Release;
+		};
+		F75CE2161D150B83005C59D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "07_猜图游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-7-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "07_猜图游戏";
+			};
+			name = Debug;
+		};
+		F75CE2171D150B83005C59D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "07_猜图游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-7-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "07_猜图游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75CE1DD1D150B83005C59D4 /* Build configuration list for PBXProject "07_猜图游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CE20D1D150B83005C59D4 /* Debug */,
+				F75CE20E1D150B83005C59D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75CE20F1D150B83005C59D4 /* Build configuration list for PBXNativeTarget "07_猜图游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CE2101D150B83005C59D4 /* Debug */,
+				F75CE2111D150B83005C59D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75CE2121D150B83005C59D4 /* Build configuration list for PBXNativeTarget "07_猜图游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CE2131D150B83005C59D4 /* Debug */,
+				F75CE2141D150B83005C59D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75CE2151D150B83005C59D4 /* Build configuration list for PBXNativeTarget "07_猜图游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CE2161D150B83005C59D4 /* Debug */,
+				F75CE2171D150B83005C59D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75CE1DA1D150B83005C59D4 /* Project object */;
+}

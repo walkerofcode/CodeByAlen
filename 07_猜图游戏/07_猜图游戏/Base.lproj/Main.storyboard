@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="9Yl-m3-KNa" userLabel="AllView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DWG-lZ-mzg">
+                                        <rect key="frame" x="125" y="25" width="125" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是标题" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPB-sp-nU8">
+                                        <rect key="frame" x="0.0" y="67" width="375" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ChI-Pt-xUy">
+                                        <rect key="frame" x="309" y="244" width="61" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.56046562929999999" blue="0.30126484050000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="下一张"/>
+                                        <connections>
+                                            <action selector="btn_nextClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6u-CP-tsP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="S7A-iO-3Fw">
+                                        <rect key="frame" x="8" y="155" width="61" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.56046562932268196" blue="0.30126484049135782" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="提示"/>
+                                        <connections>
+                                            <action selector="btn_hint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JQ1-dm-7JK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Uz-Gg-WCX">
+                                        <rect key="frame" x="8" y="244" width="61" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.56046562929999999" blue="0.30126484050000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="帮助"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YQm-GM-pSu">
+                                        <rect key="frame" x="309" y="155" width="61" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.56046562929999999" blue="0.30126484050000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="大图"/>
+                                        <connections>
+                                            <action selector="btn_toBigPic" destination="BYZ-38-t0r" eventType="touchUpInside" id="PDn-3G-egl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="3Xw-Iz-69i">
+                                        <rect key="frame" x="74" y="100" width="227" height="227"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="btn_iconClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ad-qz-bge"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" id="cGx-7e-OE5">
+                                        <rect key="frame" x="0.0" y="344" width="375" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="BMx-zu-NUl">
+                                        <rect key="frame" x="0.0" y="384" width="375" height="283"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="h4c-ub-Zfn">
+                                        <rect key="frame" x="225" y="39" width="150" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="score:1000"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.74583239124376499" blue="0.59724767338291596" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btn_next" destination="ChI-Pt-xUy" id="GOh-dh-acm"/>
+                        <outlet property="btn_pic" destination="3Xw-Iz-69i" id="QoK-bZ-hr9"/>
+                        <outlet property="btn_score" destination="h4c-ub-Zfn" id="tHL-pV-KMt"/>
+                        <outlet property="btn_toBig" destination="YQm-GM-pSu" id="ctr-j1-K4B"/>
+                        <outlet property="lbl_index" destination="DWG-lZ-mzg" id="nUc-Lt-HfL"/>
+                        <outlet property="lbl_title" destination="gPB-sp-nU8" id="pDS-nh-91a"/>
+                        <outlet property="view_All" destination="9Yl-m3-KNa" id="SpO-UV-uww"/>
+                        <outlet property="view_answer" destination="cGx-7e-OE5" id="LAL-fn-QMr"/>
+                        <outlet property="view_options" destination="BMx-zu-NUl" id="c6a-Qg-eN8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236.5" y="466.5"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nAU-0x-TbP">
+                                <rect key="frame" x="75" y="101" width="225" height="225"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z0-Fh-o5b">
+                                <rect key="frame" x="156" y="48" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="标题" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-MH-Z5U">
+                                <rect key="frame" x="25" y="353" width="325" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7H-Pv-KVM">
+                                <rect key="frame" x="316" y="199" width="48" height="48"/>
+                                <state key="normal" backgroundImage="right_normal"/>
+                                <state key="disabled" backgroundImage="right_disabled"/>
+                                <state key="highlighted" title="＋＋＋" backgroundImage="right_hightlight"/>
+                                <connections>
+                                    <action selector="btn_down" destination="BYZ-38-t0r" eventType="touchUpInside" id="S9u-bH-bjP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwj-6R-RaR">
+                                <rect key="frame" x="13" y="199" width="48" height="48"/>
+                                <state key="normal" backgroundImage="left_normal"/>
+                                <state key="disabled" backgroundImage="left_disabled"/>
+                                <state key="highlighted" title="－－－" backgroundImage="left_hightlight"/>
+                                <connections>
+                                    <action selector="btn_up" destination="BYZ-38-t0r" eventType="touchUpInside" id="GyY-iL-S4s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnDown" destination="I7H-Pv-KVM" id="ymt-ge-S7n"/>
+                        <outlet property="btnUp" destination="kwj-6R-RaR" id="vUG-Ns-Wib"/>
+                        <outlet property="img_icon" destination="nAU-0x-TbP" id="SHA-ks-VPN"/>
+                        <outlet property="lbl_index" destination="6z0-Fh-o5b" id="uTW-26-CXL"/>
+                        <outlet property="lbl_title" destination="gdn-MH-Z5U" id="uwg-gG-hm3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="418.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="left_disabled" width="48" height="48"/>
+        <image name="left_hightlight" width="48" height="48"/>
+        <image name="left_normal" width="48" height="48"/>
+        <image name="right_disabled" width="48" height="48"/>
+        <image name="right_hightlight" width="48" height="48"/>
+        <image name="right_normal" width="48" height="48"/>
+    </resources>
+</document>

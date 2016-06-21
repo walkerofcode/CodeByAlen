@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7B9484E1D04B7A200462147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9484D1D04B7A200462147 /* main.m */; };
+		F7B948511D04B7A200462147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B948501D04B7A200462147 /* AppDelegate.m */; };
+		F7B948541D04B7A200462147 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B948531D04B7A200462147 /* ViewController.m */; };
+		F7B948571D04B7A200462147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B948551D04B7A200462147 /* Main.storyboard */; };
+		F7B948591D04B7A200462147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B948581D04B7A200462147 /* Assets.xcassets */; };
+		F7B9485C1D04B7A200462147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B9485A1D04B7A200462147 /* LaunchScreen.storyboard */; };
+		F7B948671D04B7A300462147 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B948661D04B7A300462147 /* _____Tests.m */; };
+		F7B948721D04B7A300462147 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B948711D04B7A300462147 /* _____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7B948631D04B7A300462147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B948411D04B7A200462147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B948481D04B7A200462147;
+			remoteInfo = "按钮的使用";
+		};
+		F7B9486E1D04B7A300462147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7B948411D04B7A200462147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B948481D04B7A200462147;
+			remoteInfo = "按钮的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7B948491D04B7A200462147 /* 按钮的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B9484D1D04B7A200462147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7B9484F1D04B7A200462147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7B948501D04B7A200462147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7B948521D04B7A200462147 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7B948531D04B7A200462147 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7B948561D04B7A200462147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7B948581D04B7A200462147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7B9485B1D04B7A200462147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7B9485D1D04B7A200462147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B948621D04B7A300462147 /* 按钮的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B948661D04B7A300462147 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		F7B948681D04B7A300462147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B9486D1D04B7A300462147 /* 按钮的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B948711D04B7A300462147 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		F7B948731D04B7A300462147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7B948461D04B7A200462147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B9485F1D04B7A300462147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B9486A1D04B7A300462147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7B948401D04B7A200462147 = {
+			isa = PBXGroup;
+			children = (
+				F7B9484B1D04B7A200462147 /* 按钮的使用 */,
+				F7B948651D04B7A300462147 /* 按钮的使用Tests */,
+				F7B948701D04B7A300462147 /* 按钮的使用UITests */,
+				F7B9484A1D04B7A200462147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7B9484A1D04B7A200462147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7B948491D04B7A200462147 /* 按钮的使用.app */,
+				F7B948621D04B7A300462147 /* 按钮的使用Tests.xctest */,
+				F7B9486D1D04B7A300462147 /* 按钮的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7B9484B1D04B7A200462147 /* 按钮的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				F7B9484F1D04B7A200462147 /* AppDelegate.h */,
+				F7B948501D04B7A200462147 /* AppDelegate.m */,
+				F7B948521D04B7A200462147 /* ViewController.h */,
+				F7B948531D04B7A200462147 /* ViewController.m */,
+				F7B948551D04B7A200462147 /* Main.storyboard */,
+				F7B948581D04B7A200462147 /* Assets.xcassets */,
+				F7B9485A1D04B7A200462147 /* LaunchScreen.storyboard */,
+				F7B9485D1D04B7A200462147 /* Info.plist */,
+				F7B9484C1D04B7A200462147 /* Supporting Files */,
+			);
+			path = "按钮的使用";
+			sourceTree = "<group>";
+		};
+		F7B9484C1D04B7A200462147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7B9484D1D04B7A200462147 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7B948651D04B7A300462147 /* 按钮的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B948661D04B7A300462147 /* _____Tests.m */,
+				F7B948681D04B7A300462147 /* Info.plist */,
+			);
+			path = "按钮的使用Tests";
+			sourceTree = "<group>";
+		};
+		F7B948701D04B7A300462147 /* 按钮的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7B948711D04B7A300462147 /* _____UITests.m */,
+				F7B948731D04B7A300462147 /* Info.plist */,
+			);
+			path = "按钮的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7B948481D04B7A200462147 /* 按钮的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B948761D04B7A300462147 /* Build configuration list for PBXNativeTarget "按钮的使用" */;
+			buildPhases = (
+				F7B948451D04B7A200462147 /* Sources */,
+				F7B948461D04B7A200462147 /* Frameworks */,
+				F7B948471D04B7A200462147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "按钮的使用";
+			productName = "按钮的使用";
+			productReference = F7B948491D04B7A200462147 /* 按钮的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7B948611D04B7A300462147 /* 按钮的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B948791D04B7A300462147 /* Build configuration list for PBXNativeTarget "按钮的使用Tests" */;
+			buildPhases = (
+				F7B9485E1D04B7A300462147 /* Sources */,
+				F7B9485F1D04B7A300462147 /* Frameworks */,
+				F7B948601D04B7A300462147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B948641D04B7A300462147 /* PBXTargetDependency */,
+			);
+			name = "按钮的使用Tests";
+			productName = "按钮的使用Tests";
+			productReference = F7B948621D04B7A300462147 /* 按钮的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7B9486C1D04B7A300462147 /* 按钮的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B9487C1D04B7A300462147 /* Build configuration list for PBXNativeTarget "按钮的使用UITests" */;
+			buildPhases = (
+				F7B948691D04B7A300462147 /* Sources */,
+				F7B9486A1D04B7A300462147 /* Frameworks */,
+				F7B9486B1D04B7A300462147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B9486F1D04B7A300462147 /* PBXTargetDependency */,
+			);
+			name = "按钮的使用UITests";
+			productName = "按钮的使用UITests";
+			productReference = F7B9486D1D04B7A300462147 /* 按钮的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7B948411D04B7A200462147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alen;
+				TargetAttributes = {
+					F7B948481D04B7A200462147 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HK7UA3J2FH;
+					};
+					F7B948611D04B7A300462147 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HK7UA3J2FH;
+						TestTargetID = F7B948481D04B7A200462147;
+					};
+					F7B9486C1D04B7A300462147 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HK7UA3J2FH;
+						TestTargetID = F7B948481D04B7A200462147;
+					};
+				};
+			};
+			buildConfigurationList = F7B948441D04B7A200462147 /* Build configuration list for PBXProject "按钮的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7B948401D04B7A200462147;
+			productRefGroup = F7B9484A1D04B7A200462147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7B948481D04B7A200462147 /* 按钮的使用 */,
+				F7B948611D04B7A300462147 /* 按钮的使用Tests */,
+				F7B9486C1D04B7A300462147 /* 按钮的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7B948471D04B7A200462147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B9485C1D04B7A200462147 /* LaunchScreen.storyboard in Resources */,
+				F7B948591D04B7A200462147 /* Assets.xcassets in Resources */,
+				F7B948571D04B7A200462147 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B948601D04B7A300462147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B9486B1D04B7A300462147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7B948451D04B7A200462147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B948541D04B7A200462147 /* ViewController.m in Sources */,
+				F7B948511D04B7A200462147 /* AppDelegate.m in Sources */,
+				F7B9484E1D04B7A200462147 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B9485E1D04B7A300462147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B948671D04B7A300462147 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B948691D04B7A300462147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B948721D04B7A300462147 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B948641D04B7A300462147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B948481D04B7A200462147 /* 按钮的使用 */;
+			targetProxy = F7B948631D04B7A300462147 /* PBXContainerItemProxy */;
+		};
+		F7B9486F1D04B7A300462147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7B948481D04B7A200462147 /* 按钮的使用 */;
+			targetProxy = F7B9486E1D04B7A300462147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7B948551D04B7A200462147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7B948561D04B7A200462147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7B9485A1D04B7A200462147 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7B9485B1D04B7A200462147 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7B948741D04B7A300462147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7B948751D04B7A300462147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7B948771D04B7A300462147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "按钮的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7B948781D04B7A300462147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "按钮的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7B9487A1D04B7A300462147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "按钮的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮的使用.app/按钮的使用";
+			};
+			name = Debug;
+		};
+		F7B9487B1D04B7A300462147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "按钮的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮的使用.app/按钮的使用";
+			};
+			name = Release;
+		};
+		F7B9487D1D04B7A300462147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "按钮的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮的使用";
+			};
+			name = Debug;
+		};
+		F7B9487E1D04B7A300462147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "按钮的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangyangyang.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7B948441D04B7A200462147 /* Build configuration list for PBXProject "按钮的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B948741D04B7A300462147 /* Debug */,
+				F7B948751D04B7A300462147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B948761D04B7A300462147 /* Build configuration list for PBXNativeTarget "按钮的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B948771D04B7A300462147 /* Debug */,
+				F7B948781D04B7A300462147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B948791D04B7A300462147 /* Build configuration list for PBXNativeTarget "按钮的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B9487A1D04B7A300462147 /* Debug */,
+				F7B9487B1D04B7A300462147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B9487C1D04B7A300462147 /* Build configuration list for PBXNativeTarget "按钮的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B9487D1D04B7A300462147 /* Debug */,
+				F7B9487E1D04B7A300462147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7B948411D04B7A200462147 /* Project object */;
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mUY-Xo-ROb">
+                                <rect key="frame" x="87" y="69" width="200" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="-1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="点我啊" backgroundImage="boy"/>
+                                <state key="highlighted" title="点我干嘛" backgroundImage="girl">
+                                    <color key="titleColor" red="1" green="0.1613934628" blue="0.12584560280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uhv-9v-aiR" userLabel="变小">
+                                <rect key="frame" x="300" y="468" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="minus"/>
+                                <connections>
+                                    <action selector="btn_change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M5K-gX-ynp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OAq-yK-gaK" userLabel="变大">
+                                <rect key="frame" x="217" y="468" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="puls"/>
+                                <connections>
+                                    <action selector="btn_change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uv1-mW-fAO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PD8-0h-bHe" userLabel="左">
+                                <rect key="frame" x="26" y="468" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="left_black"/>
+                                <state key="highlighted" backgroundImage="left_yellow"/>
+                                <connections>
+                                    <action selector="btn_move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rka-T7-NrW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iOQ-lM-OyH" userLabel="右">
+                                <rect key="frame" x="134" y="468" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="right_black"/>
+                                <state key="highlighted" backgroundImage="right_yellow"/>
+                                <connections>
+                                    <action selector="btn_move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bi9-SA-A3K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BES-ck-HhM" userLabel="下">
+                                <rect key="frame" x="77" y="536" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="down_black"/>
+                                <state key="highlighted" backgroundImage="down_yellow"/>
+                                <connections>
+                                    <action selector="btn_move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRJ-6y-oLc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="p5R-eF-dwO" userLabel="上">
+                                <rect key="frame" x="77" y="401" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="up_black"/>
+                                <state key="highlighted" backgroundImage="up_yellow"/>
+                                <connections>
+                                    <action selector="btn_move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yIr-Ha-tcg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btn_pic" destination="mUY-Xo-ROb" id="0NY-iH-8p9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162.40000000000001" y="381.98000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="boy" width="198" height="199"/>
+        <image name="down_black" width="94" height="92"/>
+        <image name="down_yellow" width="93" height="88"/>
+        <image name="girl" width="200" height="201"/>
+        <image name="left_black" width="86" height="89"/>
+        <image name="left_yellow" width="93" height="86"/>
+        <image name="minus" width="96" height="94"/>
+        <image name="puls" width="93" height="98"/>
+        <image name="right_black" width="92" height="93"/>
+        <image name="right_yellow" width="87" height="88"/>
+        <image name="up_black" width="92" height="93"/>
+        <image name="up_yellow" width="93" height="87"/>
+    </resources>
+</document>
